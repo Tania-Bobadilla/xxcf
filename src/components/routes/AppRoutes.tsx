@@ -4,9 +4,10 @@ import InfoNegocio from '../InfoNegocio';
 
 const AppRoutes = () => {
   return (
-    <div>
+    <div>  
       <Routes>
-        <Route index element={/InfoNegocio}>
+        <Route index element={<InfoNegocio/>}/>
+        {/* <Route path="/infonegocio" element={<InfoNegocio/>} />  */}
       </Routes>
     </div>
   )

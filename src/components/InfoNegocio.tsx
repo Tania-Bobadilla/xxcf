@@ -2,16 +2,16 @@ import React from 'react'
 
 const InfoNegocio = () => {
   return (
-    <div className='m-5 text-sm'>
+    <div className='m-5'>
 
         {/* Titulo */}
         <h1 className='pb-10 text-left'> INFORMACIÓN DE TU NEGOCIO</h1>
 
         {/* Formulario */}
         <form className='pt-5 space-y-10 '>
-
+          {/* <h1 className='pb-10 text-center'> INFORMACIÓN DE TU NEGOCIO</h1> */}
           {/* Nombre del negocio */}
-          <div className='flex space-x-20 items-end'>
+          <div className='flex space-x-10 items-end'>
             <div className='grid grid-cols'>
               <label>Nombre de tu negocio*</label>
               <input type="text" className='w-48 bg-gris2' />
@@ -38,21 +38,30 @@ const InfoNegocio = () => {
           </div>
 
           {/* Direccion, ciudad y pais */}
-          <div className='flex space-x-4'>
+          <div className='grid grid-rows-2 gap-y-4'>
             <div>
               <p>Dirección del negocio</p>
               <input className='w-40 bg-gris2' type="text" />
             </div>
 
-            <div>
-              <p>Ciudad</p>
-              <input className='w-32 bg-gris2' type="text" />
+            <div className='flex gap-4'>
+              <div>
+                <p>País</p>
+                <input className='w-32 bg-gris2' type="text" />
+              </div>
+              <div>
+                <p>Ciudad</p>
+                <input className='w-32 bg-gris2' type="text" />
+              </div>
+              
             </div>
 
-            <div>
+            
+
+            {/* <div>
               <p>País</p>
               <input className='w-32 bg-gris2' type="text" />
-            </div>
+            </div> */}
           </div>
 
 

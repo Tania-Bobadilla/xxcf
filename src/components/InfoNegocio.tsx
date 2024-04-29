@@ -2,7 +2,7 @@ import React from 'react'
 
 const InfoNegocio = () => {
   return (
-    <div className='m-5'>
+    <div className='m-5 text-sm'>
 
         {/* Titulo */}
         <h1 className='pb-10 text-left'> INFORMACIÓN DE TU NEGOCIO</h1>

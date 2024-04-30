@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     colors: {
       'gris1': '#545454',
-      'gris2': '#d9d9d9'
+      'gris2': '#d9d9d9',
+      'rosa1': '#ff7bac'
     },
     extend: {
       fontFamily: {
